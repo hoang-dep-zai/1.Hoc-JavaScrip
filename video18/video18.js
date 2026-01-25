@@ -17,4 +17,18 @@ const name3 = `Dinh cao`;
 
 console.log(name);
 
+//boolean: true or for
+
+const isTuideptrai = true;
+console.log(isTuideptrai);
+
+
+//undefined
+let bla;
+console.log(bla);
+
+//null;
+const testNull = null;
+console.log(testNull);
+
 
