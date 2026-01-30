@@ -1,0 +1,13 @@
+console.log("Video 32");
+
+const sum = (a, b, c) => {
+    console.log(" run before")
+    if (typeof a !== 'number'){
+        console.log(" run empty return")
+        return;//void 
+           }
+        console.log("run after")
+        return a + b + c;
+
+ }
+ console.log(sum("Hoangdepzai", 2, 3));
