@@ -13,8 +13,8 @@ const scorex2 = scores.map((Element, index) =>{
 
 })
 
-const scoresx3 = scores.map((Element, index) => Element * 2)
+const scoresx3 = scores.map((Element, index) => Element * 2)// không khuyến khích bởi vì nó không đầy đủ
 
 console.log(scores);
 console.log(scorex2);
-console.log(scores3);
+console.log(scoresx3);
