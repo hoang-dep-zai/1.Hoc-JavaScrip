@@ -69,6 +69,7 @@ console.log("7. PriceList:", Pricelist);
 const inStocklist = product.filter((item, index)=> 
      item.inStock === true
 )
+
 console.log("8. inStockList:", inStocklist);
 console.log("9.==================");
 for (const key in pr1) {
